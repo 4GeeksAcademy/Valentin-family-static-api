@@ -43,9 +43,6 @@ class FamilyStructure:
             "lucky number": [ 1 ]
         }]
 
-        # for _member in initial_family_data:
-        #     self.add_member(_member)
-
     # read-only: Use this method to generate random members ID's when adding members into the list
     def _generateId(self):
         return randint(0, 99999999)
